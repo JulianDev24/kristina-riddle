@@ -1,0 +1,74 @@
+{
+  "story": {
+    "title": "Das Rätsel des vergessenen Tagebuchs",
+    "text": "Kristina, eine leidenschaftliche Leserin und Entdeckerin, erhält an ihrem Geburtstag ein mysteriöses, in Leder gebundenes Tagebuch, das aussieht, als wäre es viele Jahrzehnte alt. Dieses Tagebuch, von einem unbekannten Absender, trägt die Inschrift „Für die, die das Unbekannte suchen“. Als sie es öffnet, beginnt eine aufregende Geschichte über ein uraltes Rätsel, das über Generationen hinweg verloren gegangen war. Der letzte Eintrag im Tagebuch stammt von einer Person namens Viktor, der vor über 50 Jahren verschwand, während er versuchte, die Geheimnisse des Tagebuchs zu lüften.",
+    "images": [
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSgRSNQYvQ_ONtbFhbMR6VVogHetZGOdpx-9M4wbGVVKwnIqSAitay4WvYud9qYxOVOQ46O2Xxfbg"
+    ]
+  },
+  "puzzles": [
+    {
+      "title": "Der unsichtbare Hinweis",
+      "text": "Im Tagebuch entdeckt Kristina eine Seite, die auf den ersten Blick leer erscheint. Doch nach genauerem Hinsehen erkennt sie, dass die Seite leicht wellig ist, als hätte jemand etwas mit unsichtbarer Tinte darauf geschrieben. Eine Notiz von Viktor warnt: „Nur das Licht der Wahrheit enthüllt, was die Dunkelheit verbirgt. Kristina erinnert sich an das UV-Licht, das dem Tagebuch beilag, und weiß, dass dies der Schlüssel zur Entdeckung des ersten Hinweises ist.",
+      "images": [
+        "https://static.vecteezy.com/system/resources/previews/031/229/257/large_2x/a-vintage-feather-quill-pen-delicately-placed-on-top-of-an-antique-book-ai-generated-photo.jpg"
+      ],
+      "hints": [
+        "Manchmal ist es nicht das, was du sehen kannst, sondern das, was du enthüllen musst."
+      ],
+      "answer": "Viktors Versteck"
+    },
+    
+    
+    
+    {
+      "title": "Die Botschaft aus der Vergangenheit",
+      "text": "Viktor berichtet in seinem Tagebuch von einem alten Funkspruch, den er empfangen hatte, bevor er verschwand. Der Funkspruch schien bedeutungslos, aber er schrieb ihn vorsichtshalber nieder. Als Kristina die Morsezeichen im Tagebuch entdeckt, erkennt sie, dass dies ein weiterer Schlüssel ist. Doch die Zeichen sind unvollständig – einige Teile müssen durch das Tagebuch ergänzt werden.",
+      "images": [
+        "https://149363556.v2.pressablecdn.com/wp-content/uploads/2016/12/morsezeichen-2220x1000.jpg"
+      ],
+      "hints": [
+        "Das Rauschen kann oft das Wichtigste überdecken."
+      ],
+      "answer": "Schlüsselwort"
+    },
+    
+    
+    
+    {
+      "title": "Der Periodische Hinweis",
+      "text": "In einem der letzten Einträge des Tagebuchs gibt Viktor eine kryptische Zahlenreihe an, die auf den ersten Blick keinen Sinn ergibt. „Die Elemente werden den Weg weisen“, schreibt er. Kristina erkennt, dass es sich um eine Verknüpfung mit dem Periodensystem handelt. Die Zahlen müssen in chemische Elemente umgewandelt werden, um ein Wort zu formen.",
+      "images": [],
+      "hints": [
+        "Manchmal verbergen sich Worte hinter Zahlen."
+      ],
+      "answer": "Notification"
+    },
+    
+    
+    
+    {
+      "title": "Der verschollene Code",
+      "text": "Kristina findet eine Seite im Tagebuch, auf der Viktor kryptische Zeichen und eine Nachricht hinterlassen hat: „Der Schlüssel liegt im Rad der Zeit“. Daneben liegt ein Caesar-Verschlüsselungsrad. Doch um die Nachricht zu entschlüsseln, muss Kristina das Rad (Viktor / 11,875) Mal um die 26 Buchstaben im Alphabet drehen, um die geheime Botschaft zu entschlüsseln.",
+      "images": [
+        "https://blog.hnf.de/wp-content/uploads/2024/01/Diskret.jpg"
+      ],
+      "hints": [
+        "Manchmal musst du etwas öfter drehen, um die Wahrheit zu finden."
+      ],
+      "answer": "Diana"
+    },
+    
+    
+    
+    {
+      "title": "Der Ort des letzten Rätsels - Wer blättert der findet",
+      "text": "Nachdem alle Hinweise entschlüsselt sind, führt Viktor Kristina und ihre Freunde an einen geheimen Ort. „Hier endet die Suche, doch ein neuer Anfang wartet.“ Die Hinweise aus den vorherigen Rätseln helfen bei der Lösung des letzten Rätsels, die die Koordinaten und den Ort des finalen Rätsels enthüllen – das Ziel ihres Abenteuers.",
+      "images": [],
+      "hints": [
+        "Manchmal musst du einfach weiter Blättern, um die Wahrheit zu finden."
+      ],
+      "answer": "Boda Borg"
+    }
+  ]
+}

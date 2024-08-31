@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ puzzle.title }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 20px; }
+        h1, h2 { color: #333; }
+        p { color: #555; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        img { max-width: 100%; height: auto; }
+        .hint { display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; margin-right: 5px; }
+        .hint:hover::after {
+            content: attr(data-hint);
+            display: block;
+            position: absolute;
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-box { margin-bottom: 20px; }
+        .button { display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; }
+        .button:hover { background-color: #0056b3; }
+        .error { background-color: #f8d7da; padding: 10px; border-radius: 5px; color: #721c24; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>{{ puzzle.title }}</h2>
+        <p>{{ puzzle.text }}</p>
+        {% for image in puzzle.images %}
+            <img src="{{ image }}" alt="Puzzle Image">
+        {% endfor %}
+
+        <form action="/check_answer/{{ puzzle_index }}" method="post">
+            <div class="input-box">
+                <input type="text" name="answer" placeholder="Antwort" required />
+            </div>
+            <input type="submit" class="button" value="Prüfen" />
+        </form>
+
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>

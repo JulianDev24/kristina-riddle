@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ story.title }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 20px; }
+        h1, h2 { color: #333; }
+        p { color: #555; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        img { max-width: 100%; height: auto; }
+        .button { display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px; }
+        .button:hover { background-color: #0056b3; }
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ story.title }}</h1>
+        <p>{{ story.text }}</p>
+        {% for image in story.images %}
+            <img class="center" src="{{ image }}" alt="Story Image">
+        {% endfor %}
+        <a href="/question/0" class="button">Start</a>
+    </div>
+</body>
+</html>
